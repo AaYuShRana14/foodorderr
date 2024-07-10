@@ -31,13 +31,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="carousel-item active">
-                        <img src="https://source.unsplash.com/random/900*700/?burger" className="d-block w-100" alt="..." style={{ filter: "brightness(50%)", maxHeight: "550px", objectFit: "cover" }}></img>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg" className="d-block w-100" alt="..." style={{ filter: "brightness(50%)", maxHeight: "550px", objectFit: "cover" }}></img>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900*700/?pizza" className="d-block w-100" alt="..." style={{ filter: "brightness(50%)", maxHeight: "550px", objectFit: "cover" }}></img>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaiX6lltHvFRx2WWdcoOT7z-117jWY65nbcg&s" className="d-block w-100" alt="..." style={{ filter: "brightness(50%)", maxHeight: "550px", objectFit: "cover" }}></img>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900*700/?food" className="d-block w-100" alt="..." style={{ filter: "brightness(50%)", maxHeight: "550px", objectFit: "cover" }}></img>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXW3JiFTUhTbus2IHgl2ZC0jJIsnB6tm5itg&s" className="d-block w-100" alt="..." style={{ filter: "brightness(50%)", maxHeight: "550px", objectFit: "cover" }}></img>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
