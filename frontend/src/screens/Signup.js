@@ -9,7 +9,7 @@ const Signup = () => {
     }
     const submitHandler=async(e)=>{
         e.preventDefault();
-        const res=await fetch('http://localhost:5000/zom/createuser',{
+        const res=await fetch('https://zomm.onrender.com/zom/createuser',{
             method:'POST',
             headers:{
                 'Content-Type': 'application/json',
