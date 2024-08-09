@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const Myorder = () => {
     const [orderData, setorderData] = useState({});
     const fetchMyOrder = async () => {
-        await fetch('http://localhost:5000/zom/myorders', {
+        await fetch('https://zomm.onrender.com/zom/myorders', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
