@@ -7,7 +7,7 @@ const Home = () => {
     const [search,setSearch]=useState('');
     const [foodCat, setCat] = useState([]);
     const loadData = async (req, res) => {
-        let response = await fetch("http://localhost:5000/zom/foodData", {
+        let response = await fetch("https://zomm.onrender.com/zom/foodData", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
