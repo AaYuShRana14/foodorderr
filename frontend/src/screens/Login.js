@@ -5,7 +5,7 @@ const Login = () => {
     const [credentials, setcredentials] = useState({ email: "", password: "" });
     const submitHandler = async (e) => {
         e.preventDefault();
-        const res = await fetch('http://localhost:5000/zom/loginuser', {
+        const res = await fetch('https://zomm.onrender.com/zom/loginuser', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
